@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos de Header*/
+
+body{
+    background-color: #FFF5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+.menu{
+    width: 40.625rem;
+    margin: 0 auto;
+}
+
+img{
+    width: 15.5rem;
+
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: .775rem;
+}
+
+nav ul li a:hover{
+    color: pink;
+}
+
+/*Estilos de MAIN*/
+
+.card{
+    flex: 50%;
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: medium;
+    text-align: center;
+}
+
+.card .contenido img{
+    width: 100%;
+    height: auto;
+}
+
+.contenido{
+    margin: 10px;
+    text-align: center;
+
+}
+.info{
+    text-align: center;
+    font-size: .725rem;   
+}
+
+.autor{
+    background-color: seashell;
+    padding: .425rem;
+    text-align: center;
+    font-size: .625rem;
+    border-radius: 10px;
+    
+}
+
+.form1{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form1 h4{
+    padding-bottom: 1.25rem;
+}
+
+.controls{
+    width: 400px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 15px;
+    font-size: 10px;
+    
+}
+
+.enviar{
+    width: 100px;
+    height: 20px;
+}
+
+
+
+.formulario{
+    width: 30rem;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/*Estilos de Footer*/
+
+footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer img{
+    padding-top: 1px;
+    width: 13rem;
+    
+}
+
+.contacto{
+    color: white;
+    font-size: .6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;    
+    padding-top: 2.5rem;
+}
+  
+.social-icon {
+    color: white;
+    margin: 0 10px;
+}
+  
+.social-icon:hover {
+    color: #555;
+}
+  
+.footer-derechos{
+    color: white;
+    font-size: xx-small;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*CSS de Paginas Secundarias*/
+
+/*Banner Imagen Principal*/
+section .imagen-principal{    
+    width: 100%;
+}
+
+.imagenes-banner{
+    display: flex;
+    
+}
+
+.imagenes-banner img{
+    width: 25%;
+    padding: .2rem;
+}
+
+/*Textos informativos*/
+
+section .texto-info{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-info h5{
+    padding: 8px;
+    text-align: center;
+}
+
+.texto-info p{
+    font-size: .825rem;
+    text-align: center;
+    margin: .625rem;
+    line-height: 15px;
+}
+
+.texto-info{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+h6{
+    text-align: center;
+    padding-bottom: .625rem;
+    line-height: 6px;
+}
+
+div .img-card{
+    text-align: center;
+    
+}
