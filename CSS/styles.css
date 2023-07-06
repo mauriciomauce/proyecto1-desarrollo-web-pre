@@ -99,6 +99,9 @@ h2{
     
 }
 
+
+/*  FORMULARIO  */
+
 .form1{
     display: grid;
     justify-content: center;
@@ -109,9 +112,18 @@ h2{
     padding-bottom: 1.25rem;
 }
 
+.formulario{
+    width: 30rem;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .controls{
     width: 400px;
-    background-color: #EEEEEE;
+    background-color: Snow;
     border-radius: 5px;
     padding: 1rem;
     margin-top: 15px;
@@ -124,19 +136,13 @@ h2{
     height: 20px;
 }
 
-
-
-.formulario{
-    width: 30rem;
-    background-color: white;
-    border-radius: 20px;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.controls:focus{
+    background: MistyRose;
 }
 
 
-/*Estilos de Footer*/
+
+/*Estilos de Footer ---------------------------------------*/
 
 footer{
     background-color: black;
@@ -241,4 +247,69 @@ h6{
 div .img-card{
     text-align: center;
     
+}
+
+
+
+
+/* Media Querys */
+/* max-whidth siempre lo cuparemos de Desktop a mobile*/
+
+@media (max-width:1024px){
+/* se ve todo bien, sin cambios*/
+}
+
+
+/* Media Querys de Barra de Navegación*/
+
+@media (max-width:768px){
+    nav ul li a{
+        font-size: .775rem;
+}
+
+    img{
+        width: 12.5rem;
+}
+
+
+/* Media Querys de Cards*/
+
+    .card{
+        margin: 10px;
+}
+
+
+/* Media Querys de Formulario*/
+
+    .form1{
+        margin-top: 10px;
+}
+
+.form1 h4{
+    padding-bottom: 1rem;
+}
+
+.formulario{
+    width: 25rem;
+    border-radius: 18px;
+}
+
+.controls{
+    width: 350px;
+    background-color: #EEEEEE;
+    border-radius: 4px;   
+}
+
+.enviar{
+    width: 100px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
 }
