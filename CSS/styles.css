@@ -47,7 +47,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: .775rem;
+    font-size: .875rem;
 }
 
 nav ul li a:hover{
@@ -159,7 +159,7 @@ footer{
 
 .contacto{
     color: white;
-    font-size: .6rem;
+    font-size: .9rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -173,7 +173,7 @@ footer{
   
 .social-icon {
     color: white;
-    margin: 0 10px;
+    margin: 0 13px;
 }
   
 .social-icon:hover {
@@ -182,7 +182,7 @@ footer{
   
 .footer-derechos{
     color: white;
-    font-size: xx-small;
+    font-size: .75rem;
     text-align: center;
     margin-top: 40px;
 }
