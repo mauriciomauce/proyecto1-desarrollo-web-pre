@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*Estilos de Header*/
+/*---------------------------------Estilos de HEADER*/
 
 body{
     background-color: #FFF5F5;
@@ -54,7 +54,7 @@ nav ul li a:hover{
     color: pink;
 }
 
-/*Estilos de MAIN*/
+/* ----------------------------------Estilos de MAIN*/
 
 .card{
     flex: 50%;
@@ -100,7 +100,7 @@ h2{
 }
 
 
-/*  FORMULARIO  */
+/* -----------------------------Estilos de FORMULARIO*/
 
 .form1{
     display: grid;
@@ -142,7 +142,7 @@ h2{
 
 
 
-/*Estilos de Footer ---------------------------------------*/
+/*--------------------------------- Estilos de FOOTER*/
 
 footer{
     background-color: black;
@@ -193,7 +193,7 @@ footer{
     margin-top: 40px;
 }
 
-/*CSS de Paginas Secundarias*/
+/* -------------------------------CSS de Paginas Secundarias*/
 
 /*Banner Imagen Principal*/
 section .imagen-principal{    
@@ -210,7 +210,7 @@ section .imagen-principal{
     padding: .2rem;
 }
 
-/*Textos informativos*/
+/* ---------------------------------Textos informativos*/
 
 section .texto-info{
     display: flex;
@@ -253,14 +253,14 @@ div .img-card{
 
 
 /* Media Querys */
-/* max-whidth siempre lo cuparemos de Desktop a mobile*/
+/* max-whidth siempre lo cuparemos de Desktop a Mobile*/
 
 @media (max-width:1024px){
-/* se ve todo bien, sin cambios*/
+/* se ve todo bien, sin cambios -------------------------*/
 }
 
 
-/* Media Querys de Barra de Navegación*/
+/* ------------------------Media Querys de Barra de Navegación*/
 
 @media (max-width:768px){
     nav ul li a{
@@ -272,17 +272,17 @@ div .img-card{
 }
 
 
-/* Media Querys de Cards*/
+/* --------------------------Media Querys de Cards*/
 
     .card{
         margin: 10px;
 }
 
 
-/* Media Querys de Formulario*/
+/*--------------------------Media Querys de Formulario*/
 
-    .form1{
-        margin-top: 10px;
+.form1{
+    margin-top: 10px;
 }
 
 .form1 h4{
@@ -296,7 +296,6 @@ div .img-card{
 
 .controls{
     width: 350px;
-    background-color: #EEEEEE;
     border-radius: 4px;   
 }
 
@@ -306,8 +305,16 @@ div .img-card{
 }
 
 
+/* ----------------------Media Querys de Footer*/
 
+.logo-footer img{
+    width: 12rem;
+    
+}
 
+.contacto{
+    font-size: .8rem;
+}
 
 
 
