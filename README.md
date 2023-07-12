@@ -1,5 +1,4 @@
-
-![Alt text](ASSETS/mali-logo.png)
+![Alt text](<assetsPreviewsReadme/Mali Nails LOGO negro.png>)
 
 # Proyecto de Front-end: Página de Salón de Belleza
 
