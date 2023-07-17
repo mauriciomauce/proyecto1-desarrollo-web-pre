@@ -333,12 +333,56 @@ h6{
 
 }
 
+/* -----------------------------------------------------Media Querys 460px*/
+@media (max-width:460px){
+
+    .menu{
+            width: 26.5625rem;
+    }
+    
+    img{
+        width: 13.5rem;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1.625rem;
+    }
+    
+    nav ul li{
+        padding-top: 5px;
+    }
+    
+    
+    
+    
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: .5rem;
+    }
+    
+    .contacto{
+        font-size: .7rem;
+    }
+    
+    .footer-derechos{
+        font-size: .65rem;
+    }
+    
+    }
+
+
+
+
 
 /* -----------------------------------------------------Media Querys 425px*/
 @media (max-width:425px){
 
 .menu{
-        width: 26.5625rem;
+        width: 23.5625rem;
 }
 
 img{
