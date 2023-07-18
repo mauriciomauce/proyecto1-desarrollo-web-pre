@@ -9,7 +9,7 @@
 body{
     background-color: #FFF5F5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
+    
 }
 
 header{
@@ -52,7 +52,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: 1rem;
+    font-size: .7rem;
 }
 
 nav ul li a:hover{
@@ -63,7 +63,7 @@ nav ul li a:hover{
 
 .card{
     flex: 50%;
-    margin: 20px;
+    margin: 10px;
     display: flex;
     background-color: white;
     border-radius: 10px;
@@ -83,6 +83,7 @@ h2{
 .card .contenido img{
     width: 100%;
     height: auto;
+
 }
 
 .contenido{
@@ -93,7 +94,12 @@ h2{
 .info{
     text-align: center;
     font-size: .725rem;   
+
 }
+
+.info-autor{
+}
+
 
 .autor{
     background-color: seashell;
@@ -101,7 +107,8 @@ h2{
     text-align: center;
     font-size: .625rem;
     border-radius: 10px;
-    
+    bottom: 0;
+
 }
 
 
@@ -269,6 +276,7 @@ div .img-card{
 /* --------------------------------------------------------Media Querys 1024px*/
 @media (max-width:1024px){
 /* se ve todo bien, sin cambios -------------------------*/
+
 }
 
 
@@ -278,12 +286,22 @@ div .img-card{
 /* --------------------------------------------------------Media Querys 768px*/
 
 @media (max-width:768px){
+
+
+
 nav ul li a{
-        font-size: .85rem;
+        font-size: .7rem;
 }
 
 
 /* --------------------------Media Querys de Cards*/
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: .5rem;
+}
+
 
 .card{
         margin: .625rem;
@@ -333,11 +351,11 @@ h6{
 
 }
 
-/* -----------------------------------------------------Media Querys 460px*/
-@media (max-width:460px){
+/* -----------------------------------------------------Media Querys 570px*/
+@media (max-width:570px){
 
     .menu{
-            width: 26.5625rem;
+            width: 100%;
     }
     
     img{
@@ -348,13 +366,12 @@ h6{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 1.625rem;
+        padding-bottom: 1rem;
     }
     
-    nav ul li{
-        padding-top: 5px;
-    }
-    
+nav ul li a{
+    font-size: .6rem;
+}
     
     
     
@@ -393,12 +410,9 @@ nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 1.625rem;
+    padding-bottom: .8rem;
 }
 
-nav ul li{
-    padding-top: 3px;
-}
 
 
 
@@ -424,8 +438,8 @@ nav ul li{
 /* -----------------------------------------------------Media Querys 375px*/
 @media (max-width:375px){
 
-    .menu{
-        width: 375px;
+.menu{
+    width: 100%;
 }
 
 
@@ -477,8 +491,8 @@ nav ul li a{
 @media (max-width:320px){
 
 
-    .menu{
-        width: 20rem;
+.menu{
+    width: 100%;
 }
 
 .cards{
