@@ -1,0 +1,42 @@
+.form1 {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+
+    h4 {
+    font-size: 1.25rem;
+    padding-bottom: 1.25rem;
+    }
+
+    .formulario {
+    width: 30rem;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    }
+
+    .controls {
+    width: 400px;
+    background-color: Snow;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 15px;
+    font-size: 10px;
+    border: 1px solid #000;
+    }
+
+    .enviar {
+    width: 100px;
+    height: 20px;
+    }
+
+    &:focus {
+    background: MistyRose;
+    }
+}

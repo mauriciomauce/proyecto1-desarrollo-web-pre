@@ -1,0 +1,23 @@
+  /* Media Querys 375px */
+
+@media (max-width: 375px) {
+    .menu {
+    width: 100%;
+
+    li a {
+    font-size: 0.70rem;
+    padding-top: 0.125rem;
+    }
+    }
+
+    /* Media Querys de Formulario */
+
+    .form1 {
+    .formulario {
+    width: 21rem;}
+    
+    .controls {
+    width: 275px;
+      }
+}
+}

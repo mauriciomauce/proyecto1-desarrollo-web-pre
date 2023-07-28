@@ -1,0 +1,525 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*---------------------------------Estilos de HEADER*/
+
+body{
+    background-color: #FFF5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+.menu{
+    margin: 0 auto;
+
+
+}
+
+img{
+    width: 15.5rem;
+
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    gap: .625rem;
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: .7rem;
+}
+
+nav ul li a:hover{
+    color: pink;
+}
+
+/* ----------------------------------Estilos de MAIN*/
+
+.card{
+    flex: 50%;
+    margin: 10px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: medium;
+    text-align: center;
+}
+
+.card .contenido img{
+    width: 100%;
+    height: auto;
+
+}
+
+.contenido{
+    margin: 10px;
+    text-align: center;
+
+}
+.info{
+    text-align: center;
+    font-size: .725rem;   
+
+}
+
+
+.autor{
+    background-color: seashell;
+    padding: .425rem;
+    text-align: center;
+    font-size: .625rem;
+    border-radius: 10px;
+    bottom: 0;
+
+}
+
+
+/* -----------------------------Estilos de FORMULARIO*/
+
+.form1{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.form1 h4{
+    padding-bottom: 1.25rem;
+}
+
+.formulario{
+    width: 30rem;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.formulario textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.controls{
+    width: 400px;
+    background-color: Snow;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 15px;
+    font-size: 10px;
+    border:1px solid #000;
+}
+
+.enviar{
+    width: 100px;
+    height: 20px;
+}
+
+.controls:focus{
+    background: MistyRose;
+}
+
+
+
+/*--------------------------------- Estilos de FOOTER*/
+
+footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer img{
+    padding-top: 1px;
+    width: 13rem;
+    
+}
+
+.contacto{
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;    
+    padding-top: 2.5rem;
+}
+  
+.social-icon {
+    color: white;
+    margin: 0 13px;
+}
+  
+.social-icon:hover {
+    color: #555;
+}
+  
+.footer-derechos{
+    color: white;
+    font-size: .75rem;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+/* -------------------------------CSS de Paginas Secundarias*/
+
+/*Banner Imagen Principal*/
+section .imagen-principal{    
+    width: 100%;
+}
+
+.imagenes-banner{
+    display: flex;
+    
+}
+
+.imagenes-banner img{
+    width: 25%;
+    padding: .2rem;
+}
+
+/* ---------------------------------Textos informativos*/
+
+section .texto-info{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-info h5{
+    padding: 8px;
+    text-align: center;
+}
+
+.texto-info p{
+    font-size: .825rem;
+    text-align: center;
+    margin: .625rem;
+    line-height: 15px;
+}
+
+.texto-info{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+h6{
+    text-align: center;
+    padding-bottom: .625rem;
+    line-height: 6px;
+}
+
+div .img-card{
+    text-align: center;
+    
+}
+
+
+
+
+/* Media Querys */
+/* max-whidth siempre lo cuparemos de Desktop a Mobile*/
+
+/* --------------------------------------------------------Media Querys 1024px*/
+@media (max-width:1024px){
+/* se ve todo bien, sin cambios -------------------------*/
+
+}
+
+
+
+/* ------------------------Media Querys de Barra de Navegación*/
+
+/* --------------------------------------------------------Media Querys 768px*/
+
+@media (max-width:768px){
+
+
+
+nav ul li a{
+        font-size: .7rem;
+}
+
+
+/* --------------------------Media Querys de Cards*/
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: .5rem;
+}
+
+
+.card{
+        margin: .625rem;
+}
+
+h6{
+    line-height: 1rem;
+}
+
+
+/*--------------------------Media Querys de Formulario*/
+
+.form1{
+    margin-top: 10px;
+}
+
+.form1 h4{
+    padding-bottom: 1rem;
+}
+
+.formulario{
+    width: 25rem;
+    border-radius: 1.125rem;
+}
+
+.controls{
+    width: 21.875rem;
+    border-radius: .25rem;   
+}
+
+.enviar{
+    width: 6.25rem;
+    height: 1.25rem;
+}
+
+
+/* ----------------------Media Querys de Footer*/
+
+.logo-footer img{
+    width: 12rem;
+    
+}
+
+.contacto{
+    font-size: .8rem;
+}
+
+}
+
+/* -----------------------------------------------------Media Querys 570px*/
+@media (max-width:570px){
+
+    .menu{
+            width: 100%;
+    }
+    
+    img{
+        width: 13.5rem;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    
+nav ul li a{
+    font-size: .6rem;
+}
+    
+    
+    
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: .5rem;
+    }
+    
+    .contacto{
+        font-size: .7rem;
+    }
+    
+    .footer-derechos{
+        font-size: .65rem;
+    }
+    
+    }
+
+
+
+
+
+/* -----------------------------------------------------Media Querys 425px*/
+@media (max-width:425px){
+
+.menu{
+        width: 23.5625rem;
+}
+
+img{
+    width: 10.5rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: .8rem;
+}
+
+
+
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contacto{
+    font-size: .7rem;
+}
+
+.footer-derechos{
+    font-size: .65rem;
+}
+
+}
+
+
+
+/* -----------------------------------------------------Media Querys 375px*/
+@media (max-width:375px){
+
+.menu{
+    width: 100%;
+}
+
+
+nav ul li a{
+    font-size: .70rem;
+}
+
+nav ul li a{
+    padding-top: .125rem;
+}
+
+
+
+/*--------------------------Media Querys de Formulario*/
+.form1 h4{
+    font-size: 1rem;
+}
+
+.form1 h4{
+    padding-bottom: 1rem;
+}
+
+.formulario{
+    width: 20rem;
+    border-radius: 18px;
+}
+
+.controls{
+    width: 18rem;
+    border-radius: .25rem;   
+}
+
+
+
+.contacto{
+    font-size: .6rem;
+}
+
+
+.footer-derechos{
+    font-size: .55rem;
+}
+
+
+}
+
+
+/* -----------------------------------------------------Media Querys 320px*/
+@media (max-width:320px){
+
+
+.menu{
+    width: 100%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.form1 h4{
+    font-size: .80rem;
+}
+
+.formulario{
+    width: 18rem;
+    border-radius: 18px;
+}
+
+.controls{
+    width: 16rem;
+    border-radius: .25rem;   
+}
+
+
+
+.contacto{
+    font-size: .6rem;
+}
+
+
+
+
+
+}

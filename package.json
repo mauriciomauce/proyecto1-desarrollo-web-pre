@@ -1,0 +1,17 @@
+{
+  "name": "preentrega1-montes-de-oca-rangel-2.1",
+  "version": "1.0.0",
+  "description": "![Alt text](<assetsPreviewsReadme/Mali Nails LOGO negro.png>)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss ./scss/style.scss ./css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  }
+}

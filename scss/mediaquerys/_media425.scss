@@ -1,0 +1,46 @@
+  /* Media Querys 425px */
+
+@media (max-width: 425px) {
+    .menu {
+    width: 23.5625rem;
+    }
+
+    img {
+    width: 10.5rem;
+    }
+
+    nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.8rem;
+
+    li a {
+        font-size: 0.7rem;
+    }
+    }
+
+    .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .contacto {
+    font-size: 0.7rem;
+    }
+
+    .footer-derechos {
+    font-size: 0.65rem;
+    }
+
+//*Formluarios*//
+
+.form1 .formulario {
+  width: 23rem;}
+
+  .form1 .controls {
+    width: 300px;
+  }
+
+
+}

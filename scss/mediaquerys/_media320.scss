@@ -1,0 +1,23 @@
+  /* Media Querys 320px */
+
+@media (max-width: 320px) {
+    .menu {
+    width: 100%;
+    }
+
+    .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+
+/*Formulario*/
+
+  .form1 {
+  .formulario{ 
+  width: 18rem;}
+  
+  .controls {
+  width: 250px;
+    }
+  }
+}

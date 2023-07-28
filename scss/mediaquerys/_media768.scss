@@ -1,0 +1,26 @@
+  /* Media Querys de Barra de Navegación */
+  /* Media Querys 768px */
+@media (max-width: 768px) {
+    nav ul li a {
+    font-size: 0.7rem;
+    }
+    
+/* Media Querys de Cards */
+    .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0.5rem;
+    }
+        
+.card {
+    margin: 0.625rem;
+    }
+        
+h6 {
+    line-height: 1rem;
+    }
+
+
+
+    
+}

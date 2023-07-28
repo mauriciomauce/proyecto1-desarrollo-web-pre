@@ -1,0 +1,55 @@
+/* CSS de Paginas Secundarias */
+  /* Banner Imagen Principal */
+
+section{
+
+    .imagen-principal{
+    width: 100%;
+    }
+    .imagenes-banner {
+    display: flex;
+    }
+    .imagen-sec {
+    width: 25%;
+    padding: 0.2rem;
+    }
+}
+
+
+  /* Textos informativos */
+
+section .texto-info {
+    display: flex;
+    justify-content: center;
+
+    h5 {
+    padding: 8px;
+    text-align: center;
+    }
+
+    p {
+    font-size: 0.825rem;
+    text-align: center;
+    margin: 0.625rem;
+    line-height: 15px;
+    }
+}
+
+.texto-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+h6 {
+    text-align: center;
+    padding-bottom: 0.625rem;
+    line-height: 6px;
+}
+
+div .img-card {
+    text-align: center;
+}  

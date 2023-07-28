@@ -1,0 +1,45 @@
+  /* Media Querys 570px */
+
+@media (max-width: 570px) {
+    .menu {
+    width: 100%;
+    }
+
+    img {
+    width: 13.5rem;
+    }
+
+    nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+
+    li a {
+    font-size: 0.6rem;
+    }
+    }
+
+    .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0.5rem;
+    }
+
+    .contacto {
+    font-size: 0.7rem;
+    }
+
+    .footer-derechos {
+    font-size: 0.65rem;
+    }
+
+    //*Formulario*//
+
+    .form1 .formulario {
+    width: 25rem;}
+
+    .form1 .controls {
+      width: 350px;
+      background-color: Snow;}
+}
