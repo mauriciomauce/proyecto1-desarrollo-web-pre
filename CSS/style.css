@@ -1,11 +1,19 @@
 @charset "UTF-8";
+/* Variables*/
+/**/
+.acordeon {
+  background-color: #FFFBEB; }
+
+.acordeones {
+  margin-top: 1rem; }
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
 body {
-  background-color: #FFF5F5;
+  background-color: snow;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 header {
@@ -23,7 +31,7 @@ header {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    padding-bottom: 10px;
+    padding-bottom: 1.50rem;
     padding-left: 3rem;
     padding-right: 3rem;
     gap: 0.625rem; }
@@ -33,7 +41,7 @@ header {
       header nav ul li a {
         text-decoration: none;
         color: white;
-        font-size: 1rem; }
+        font-size: 1.5rem; }
         header nav ul li a:hover {
           color: pink; }
 
@@ -120,7 +128,7 @@ div .img-card {
     padding-bottom: 1.25rem; }
   .form1 .formulario {
     width: 30rem;
-    background-color: white;
+    background-color: #F8E8EE;
     border-radius: 20px;
     text-align: center;
     padding-top: 30px;
@@ -137,7 +145,7 @@ div .img-card {
     border: 1px solid #000; }
   .form1 .enviar {
     width: 100px;
-    height: 20px; }
+    height: 30px; }
   .form1:focus {
     background: MistyRose; }
 
@@ -147,21 +155,17 @@ footer {
   margin-top: 3rem;
   padding-top: 3rem;
   padding-bottom: 3rem; }
-  footer .logo-footer {
+  footer .logo-footer, footer .contacto, footer .social-media {
     display: flex;
     justify-content: center; }
-    footer .logo-footer img {
+    footer .logo-footer img, footer .contacto img, footer .social-media img {
       padding-top: 1px;
       width: 13rem; }
   footer .contacto {
     color: white;
     font-size: 0.9rem;
-    display: flex;
-    justify-content: center;
     text-align: center; }
   footer .social-media {
-    display: flex;
-    justify-content: center;
     padding-top: 2.5rem; }
   footer .social-icon {
     color: white;
@@ -251,7 +255,7 @@ footer {
   .menu {
     width: 100%; }
     .menu li a {
-      font-size: 0.70rem;
+      font-size: 0.8rem;
       padding-top: 0.125rem; }
   /* Media Querys de Formulario */
   .form1 .formulario {

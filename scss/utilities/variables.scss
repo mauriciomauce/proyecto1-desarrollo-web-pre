@@ -1,0 +1,19 @@
+
+//*Variables Generales*//
+
+@import "./base/reset";
+@import "./layouts/header";
+@import "./layouts/main-index";
+@import "./layouts/main-secundarias";
+@import "./layouts/formulario";
+@import "./layouts/footer";
+
+
+//* Mediaquerys*//
+
+@import "./mediaquerys/media1024.scss";
+@import "./mediaquerys/media768.scss";
+@import "./mediaquerys/media570.scss";
+@import "./mediaquerys/media425.scss";
+@import "./mediaquerys/media375.scss";
+@import "./mediaquerys/media320.scss";

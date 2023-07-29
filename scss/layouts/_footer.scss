@@ -1,6 +1,6 @@
 
 footer {
-    background-color: black;
+    background-color: $background-color-principal;
     width: 100%;
     margin-top: 3rem;
     padding-top: 3rem;
@@ -17,21 +17,19 @@ footer {
     }
 
     .contacto {
-    color: white;
+    color: $background-color-secundario;
     font-size: 0.9rem;
-    display: flex;
-    justify-content: center;
+    @extend .logo-footer;
     text-align: center;
     }
 
     .social-media {
-    display: flex;
-    justify-content: center;
+    @extend .logo-footer;
     padding-top: 2.5rem;
     }
 
     .social-icon {
-    color: white;
+    color: $background-color-secundario;
     margin: 0 13px;
 
     &:hover {
@@ -40,7 +38,7 @@ footer {
     }
 
     .footer-derechos {
-    color: white;
+    color: $background-color-secundario;
     font-size: 0.75rem;
     text-align: center;
     margin-top: 2.5rem;

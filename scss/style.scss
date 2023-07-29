@@ -1,12 +1,25 @@
+/* Variables*/
+$background-color-secundario: white; 
+$background-color-principal: black;
+$background-color-body: snow;
+/**/
+
+//*Mixins*//
+@import "./utilities/mixins.scss";
 
 
-
+//*Variables Generales*//
+@import "./components/bootstrap";
 @import "./base/reset";
 @import "./layouts/header";
 @import "./layouts/main-index";
 @import "./layouts/main-secundarias";
 @import "./layouts/formulario";
 @import "./layouts/footer";
+
+
+
+
 
 
 //* Mediaquerys*//
