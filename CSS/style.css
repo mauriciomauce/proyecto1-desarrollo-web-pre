@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 /* Variables*/
 /**/
 .acordeon {
@@ -34,14 +34,14 @@ header {
     padding-bottom: 1.50rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    gap: 0.625rem; }
+    gap: 0.8rem; }
     header nav ul li {
       list-style: none;
       text-decoration: none; }
       header nav ul li a {
         text-decoration: none;
         color: white;
-        font-size: 1.5rem; }
+        font-size: 1rem; }
         header nav ul li a:hover {
           color: pink; }
 
@@ -60,14 +60,15 @@ header {
       height: auto; }
   .card h2 {
     font-size: medium;
-    text-align: center; }
+    text-align: center;
+    padding-top: .5rem; }
 
 .cards {
   display: flex;
   justify-content: center; }
 
 .info {
-  text-align: center;
+  text-align: justify;
   font-size: 0.725rem; }
 
 .autor {
@@ -159,7 +160,7 @@ footer {
     display: flex;
     justify-content: center; }
     footer .logo-footer img, footer .contacto img, footer .social-media img {
-      padding-top: 1px;
+      padding-top: 2px;
       width: 13rem; }
   footer .contacto {
     color: white;
@@ -169,7 +170,7 @@ footer {
     padding-top: 2.5rem; }
   footer .social-icon {
     color: white;
-    margin: 0 13px; }
+    margin: 0 15px; }
     footer .social-icon:hover {
       color: #555; }
   footer .footer-derechos {
