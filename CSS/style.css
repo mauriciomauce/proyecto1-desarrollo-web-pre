@@ -156,15 +156,13 @@ div .img-card {
 footer {
   background-color: black;
   width: 100%;
-  margin-top: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
+  padding-top: 2rem; }
   footer .logo-footer, footer .contacto, footer .social-media {
     display: flex;
     justify-content: center; }
     footer .logo-footer img, footer .contacto img, footer .social-media img {
-      padding-top: 2px;
-      width: 16rem; }
+      padding-top: 1rem;
+      width: 14rem; }
   footer .contacto {
     color: white;
     font-size: 0.9rem;
