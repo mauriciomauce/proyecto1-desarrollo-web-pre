@@ -161,7 +161,7 @@ footer {
     justify-content: center; }
     footer .logo-footer img, footer .contacto img, footer .social-media img {
       padding-top: 2px;
-      width: 13rem; }
+      width: 16rem; }
   footer .contacto {
     color: white;
     font-size: 0.9rem;
@@ -258,6 +258,9 @@ footer {
     .menu li a {
       font-size: 0.8rem;
       padding-top: 0.125rem; }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr; }
   /* Media Querys de Formulario */
   .form1 .formulario {
     width: 21rem; }

@@ -10,6 +10,10 @@
     }
     }
 
+    .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
     /* Media Querys de Formulario */
 
     .form1 {

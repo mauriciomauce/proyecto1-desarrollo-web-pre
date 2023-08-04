@@ -23,17 +23,17 @@
     
 </head>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
 
 
-<body class="container">
+<body class="container bg-body-secondary">
 
 
 <!----HEADER---->
 
 <header>
-    <div class="menu">
+    <div class="bg-dark menu">
     <div class="imagen">
         <img src="./ASSETS/mali-logo.png" alt="imagen de logo">
     </div>
@@ -53,129 +53,154 @@
 
 <!----MAIN----->
 
-    <section class="cards">
-        <article class="card">
-            <div class="contenido">
-                <img src="./ASSETS/jlo.png" alt="">
-                <h2>Jennifer López estrena nueva manicure elegante con uñas ‘coffin’ en rosa transparente.</h2> <br> 
-                    <p class="info">La nueva manicure de JLo resulta una forma fresca de lograr uñas con un acabado radiante y chic, al mismo tiempo.</p><br>
-
-                    <p class="autor">POR CALIN VAN PARIS TRADUCIDO Y ADAPTADO POR RAMÓN BARRETO <br>1 de junio de 2023.</p>
-            </div>
-        </article>
-        <article class="card">
-            <div class="contenido">
-                <img src="./ASSETS/kyle.png" alt="">
-                <h2>Kylie Jenner y Kendall Jenner llevan esta manicure francesa clásica al siguiente nivel.</h2> <br>
-                    <p class="info">Se trata de una manicura clásica, pero con un giro de belleza vanguardista muy propio de las hermanas Jenner.</p><br>
-
-                    <p class="autor">POR TISH WEINSTOCK <br>25 de abril de 2023 <br>1 de junio de 2023.</p>
-            </div>
-        </article>
-        <article class="card">
-            <div class="contenido">
-                <img src="./ASSETS/belinda.png" alt="">
-                <h2>Belinda nos enseña cómo llevar las uñas french clásicas más elegantes.</h2> <br>
-                    <p class="info">La cantante mexicana sabe lo que hace cuando hablamos de belleza. Afortunadamente, las redes sociales nos permiten ver de qué tratan para recrearlas.</p><br>
-
-                    <p class="autor">POR REBECA PENHOS <br>14 de marzo de 2023<br>1 de junio de 2023.</p>
-            </div>
-        </article>
-
-        <article class="card">
-            <div class="contenido">
-                <img src="./ASSETS/billie.png" alt="">
-                <h2>Billie Eilish lleva las uñas acrílicas con manicure francés en tendencia.</h2> <br>
-                    <p class="info">Olvídate del minimalismo, este otoño lo más pedido en los salones de belleza serán los diseños en 3D como los que lleva la cantante en las manos.</p><br>
-                <div class="info-autor">
-                    <p class="autor">POR LORENA MEOUCHI<br>14 de marzo de 2023<br>6 de septiembre de 2022.</p>
+    <div>
+        <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 row-cols-sm-2">
+            <div class="col mb-4">
+                <div class="card  h-100">
+                    <div class="view overlay"><img class="card-img-top" src="./ASSETS/jlo.png"alt="Card image cap"><a href="#!">
+                        <div class="mask rgba-white-slight"></div></a></div>
+                        <div class="card-body">
+                        <h4 class="card-title">Jennifer López estrena nueva manicure elegante con uñas ‘coffin’ en rosa transparente.</h4>
+                        <div class="text-left">
+                        <p>La nueva manicure de JLo resulta una forma fresca de lograr uñas con un acabado radiante y chica, al mismo tiempo.</p>
+                        <p class="autor  fw-bold">POR CALIN VAN PARIS TRADUCIDO Y ADAPTADO POR RAMÓN BARRETO <br>1 de junio de 2023.</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+
+
+            <div class="col mb-4">
+                <div class="card  h-100">
+                    <div class="view overlay"><img class="card-img-top" src="../ASSETS/kyle.png"alt="Card image cap"><a href="#!"></a>
+                        </div>
+                            <div class="mask rgba-white-slight"></div>
+                            <div class="card-body">
+                            <h4 class="card-title">Kylie y Kendall Jenner llevan esta manicure francesa clásica al siguiente nivel.</h4>
+                            <div class="text-left">
+                            <p>Se trata de una manicura clásica, pero con un giro de belleza vanguardista muy propio de las hermanas Jenner.</p>
+                            <p class="autor fw-bold">POR TISH WEINSTOCK <br>25 de abril de 2023 <br>1 de junio de 2023.</p>
+                        </div>
+                    </div>
                 </div>
-        </article>
-    </section>
+            </div>
 
 
-<div class="form1 bg-light p-4">
-    <section class="formulario">
-        <h4>Para mas información deja tus datos.</h4>
-        <form action="">
-            <label for=""></label>
-            <input class="controls" type="text" placeholder="Ingrese su nombre" id="nombre">
-
-            <br>
-
-            <label for=""></label>
-            <input class="controls" type="apellido" placeholder="Ingrese su apellido" id="apellido">
-
-            <br>
-
-            <label for=""></label>
-            <input class="controls" type="email" placeholder="Ingrese su email" id="email">
-
-            <br>
-
-            <label for=""></label>
-            <input class="controls" type="telefono" placeholder="Ingrese su telefono" id="telefono">
-
-            <br>
-
-            <label for=""></label><br>
-            <textarea class="controls" id="comentarios" placeholder="Comentarios" name="Comentarios" rows="4" cols="100"></textarea>
-
-            <br>
-            <br>
-
-            <input class="enviar" type="submit" value="Enviar">
-        </form>
+            <div class="col mb-4">
+                <div class="card  h-100">
+                    <div class="view overlay"><img class="card-img-top" src="../ASSETS/belinda.png"alt="Card image cap"><a href="#!"></a>
+                        </div>
+                            <div class="mask rgba-white-slight"></div>
+                            <div class="card-body">
+                            <h4 class="card-title">Belinda nos enseña cómo llevar las uñas french clásicas más elegantes.</h4>
+                            <p class="card-text">La cantante sabe lo que hace cuando hablamos de belleza. Las redes sociales nos permiten ver de qué tratan para recrearlas.</p>
+                            <div class="text-left fw-bold">
+                            <p class="autor">POR REBECA PENHOS <br>14 de marzo de 2023<br>1 de junio de 2023.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-    </section>
-</div>
+            <div class="col mb-4">
+                <div class="card  h-100">
+                    <div class="view overlay"><img class="card-img-top" src="../ASSETS/billie.png"alt="Card image cap"><a href="#!"></a>
+                        </div>
+                            <div class="mask rgba-white-slight"></div>
+                            <div class="card-body">
+                            <h4 class="card-title">Billie Eilish lleva las uñas acrílicas con manicure francés en tendencia.</h4>
+                            <p class="card-text">Olvídate del minimalismo, este otoño lo más pedido en los salones de belleza serán los diseños en 3D como los que lleva la cantante en las manos.</p>
+                            <div class="text-left fw-bold">
+                            <p class="autor">POR LORENA MEOUCHI<br>14 de marzo de 2023<br>6 de septiembre de 2022.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
 
 
+    <div class="form1 bg-light p-4">
+        <section class="formulario">
+            <h4>Para mas información deja tus datos.</h4>
+            <form action="">
+                <label for=""></label>
+                <input class="controls" type="text" placeholder="Ingrese su nombre" id="nombre">
+
+                <br>
+
+                <label for=""></label>
+                <input class="controls" type="apellido" placeholder="Ingrese su apellido" id="apellido">
+
+                <br>
+
+                <label for=""></label>
+                <input class="controls" type="email" placeholder="Ingrese su email" id="email">
+
+                <br>
+
+                <label for=""></label>
+                <input class="controls" type="telefono" placeholder="Ingrese su telefono" id="telefono">
+
+                <br>
+
+                <label for=""></label><br>
+                <textarea class="controls" id="comentarios" placeholder="Comentarios" name="Comentarios" rows="4" cols="100"></textarea>
+
+                <br>
+                <br>
+
+                <input class="enviar" type="submit" value="Enviar">
+            </form>
 
 
-
+        </section>
+    </div>
 
 <!----MAIN----->
 
-<!----FOOOTER---->
+<!------------------------------------------ Footer ------------------->
 
-    <footer class="pie-de-pagina">
-        <div class="logo-footer">
-            <img src="./ASSETS/mali-logo.png" alt="">
-        </div>
+<footer class="bg-dark text-center text-white">
+    <div class="logo-footer">
+        <img src="./ASSETS/mali-logo.png" alt="">
+    </div>
 
-        <div class="contaco-bloque">
-            <p class="contacto">
-                Contacto: <br><br>
-                mali.nails@icloud.com <br>
-                Tel. 56-2012-3371 <br>
-                Whatsapp: 56-2012-3371 <br>
-            </p>
-        </div>
-
-        <div class="ratio ratio-16x9 w-50 mx-auto p-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15051.35494804419!2d-99.1317495264423!3d19.419372457671003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe9fa3400001%3A0x2814ae483b8a0230!2sFrancisco%20del%20Paso%20Y%20Troncoso%20219%2C%20Jard%C3%ADn%20Balbuena%2C%20Venustiano%20Carranza%2C%2015900%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1691031320364!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        <div class="social-media">
-              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-        
-        <div class="footer-derechos">
-            <p>
-                © 2023 Mali Nails - Derechos Reservados México.
-            </p>
-        </div>
-          
+    <div class="contaco-bloque p-4">
+        <p class="contacto">
+                    Contacto: <br><br>
+                    mali.nails@icloud.com <br>
+                    Tel. 56-2012-3371 <br>
+                    Whatsapp: 56-2012-3371 <br>
+        </p>
+    </div>
+    
+    <div class="ratio ratio-16x9 w-50 mx-auto p-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15051.35494804419!2d-99.1317495264423!3d19.419372457671003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe9fa3400001%3A0x2814ae483b8a0230!2sFrancisco%20del%20Paso%20Y%20Troncoso%20219%2C%20Jard%C3%ADn%20Balbuena%2C%20Venustiano%20Carranza%2C%2015900%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1691031320364!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
 
 
-    </footer>
+<!-------------------------- Facebook -------------------------->
+    <div class="container p-5 pb-0">
+        <section class="mb-4">
+            <a class="btn text-white btn-floating m-1"style="background-color: #3b5998;"href="#!"role="button"><i class="fab fa-facebook-f"></i></a>
+
+<!---------------------------- Twitter ---------------------------->
+            <a class="btn text-white btn-floating m-1"style="background-color: #55acee;"href="#!"role="button"><i class="fab fa-twitter"></i></a>
+
+<!------------------------- Instagram ------------------------------>
+            <a class="btn text-white btn-floating m-1"style="background-color: #ac2bac;"href="#!"role="button"><i class="fab fa-instagram"></i></a>
+
+<!------------------------------ Youtube ---------------->
+            <a class="btn text-white btn-floating m-1"style="background-color: #ff0000;"href="#!"role="button"><i class="fab fa-youtube"></i></a>
+        </section>
+    </div>
+
+<!------------------- Copyright -------------------------->
+    <div class="text-center p-3">
+        © 2023 Mali Nails - Derechos Reservados México.
+    </div>
+</footer>
 
 <!----FOOOTER---->
 
